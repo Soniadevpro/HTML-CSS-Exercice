@@ -135,3 +135,49 @@ main section:last-child h2 {
   text-transform: capitalize;
   text-shadow: 2px 2px 2px rgb(255, 255, 255);
 }
+footer {
+  width: 100%;
+  height: auto;
+}
+footer section {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div h3 {
+  font-weight: 400;
+
+  font-family: "Playwrite GB S", cursive;
+  padding: 10px 10px;
+}
+footer div ul {
+  padding: 10px;
+  text-align: center;
+}
+footer div p {
+  font-style: italic;
+  font-size: 17px;
+  padding: 10px 0 15px 10px;
+}
+#bla {
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+footer .rezo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+footer > div :last-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .rezo .fa-brands {
+  font-size: 25px;
+  margin: 0 10px;
+  justify-content: space-between;
+}
